@@ -15,6 +15,8 @@ const Character = (props) => {
   return (
     <CharacterCard>
       <h2>{characterInfo.name}</h2>
+      <h3>Height: {characterInfo.height}</h3>
+      <h3>Birth year: {characterInfo.birth_year}</h3>
     </CharacterCard>
 
   )
